@@ -1,0 +1,100 @@
+/* ============================= */
+/* ROOT CONFIG */
+/* ============================= */
+
+:root {
+  font-family: "Inter", system-ui, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color: #ffffff;
+  background-color: #000000;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* ============================= */
+/* RESET DEFAULT VITE STYLES */
+/* ============================= */
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: transparent; /* Let globals.css handle background */
+}
+
+
+/* ============================= */
+/* LINKS */
+/* ============================= */
+
+a {
+  font-weight: 500;
+  color: #00ffff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+
+/* ============================= */
+/* BUTTON RESET */
+/* ============================= */
+
+button {
+  border-radius: 999px;
+  border: none;
+  padding: 0.6em 1.4em;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: none;
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
+}
+
+
+/* ============================= */
+/* HEADINGS BASE */
+/* ============================= */
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+
+/* ============================= */
+/* REMOVE LIGHT MODE AUTO SWITCH */
+/* ============================= */
+
+/* We control theme manually */
+/* So we disable prefers-color-scheme override */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #ffffff;
+    background-color: #000000;
+  }
+}

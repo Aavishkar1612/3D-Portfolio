@@ -1,0 +1,50 @@
+/* ============================= */
+/* ROOT CONTAINER */
+/* ============================= */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* ============================= */
+/* OPTIONAL UTILITIES */
+/* ============================= */
+
+/* Smooth page fade animation */
+.page-fade {
+  animation: fadePage 0.8s ease forwards;
+}
+
+@keyframes fadePage {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Subtle section divider glow */
+.section-divider {
+  height: 1px;
+  width: 60%;
+  margin: 60px auto;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(0, 255, 255, 0.5),
+    transparent
+  );
+}
+
+/* Neon border utility */
+.neon-border {
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  border-radius: 20px;
+}
