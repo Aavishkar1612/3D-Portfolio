@@ -34,7 +34,7 @@ const Hero = () => {
             transition={{ delay: 0.6, duration: 1 }}
             className="lead text-secondary mt-4"
           >
-            Full Stack Developer • React • TypeScript • Three.js
+            Frontend Developer specializing in React & TypeScript, building scalable web applications and immersive 3D experiences, backed by Data Structures & Algorithms fundamentals.
           </motion.p>
 
           {/* CTA Buttons */}
