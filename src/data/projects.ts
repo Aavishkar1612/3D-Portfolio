@@ -46,4 +46,21 @@ export const projects: Project[] = [
     tech: ["Android", "Java", "Firebase Realtime Database", "XML"],
     github: "https://github.com/nagu-mundhe/RaktDhara-Blood-Bank-App",
   },
+
+  {
+    id: 5,
+    title: "PhishEye – AI-Powered Phishing Detection & Cyber Awareness Platform",
+    description:
+      "A modern React-based cybersecurity web application designed to detect phishing threats through intelligent email and URL risk analysis, real-time threat scoring, attack flow visualization, phishing simulation campaigns, and interactive cyber awareness training modules. Built with responsive UI, reusable component architecture, and deployed on Vercel for live accessibility.",
+    tech: [
+      "React",
+      "JavaScript",
+      "CSS",
+      "Vite",
+      "Cybersecurity",
+      "Responsive UI"
+    ],
+    github: "https://github.com/Aavishkar1612/phish-eye-cybersecurity-platform",
+    demo: "https://phish-eye-cybersecurity-platform.vercel.app/",
+  },
 ];
